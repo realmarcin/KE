@@ -4,7 +4,9 @@ from scipy.stats import shapiro
 
 
 
-
+"""
+Method to compute the Shapiro normality criterion for each column in a dataframe
+"""
 def shapiro_columns(df, progress = False):
 
     shapiro_out = []
